@@ -126,3 +126,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .xml .hljs-cdata {
   opacity: 0.5;
 }
+
+.highlight {
+  color: #ddd;
+  background: #272822;
+}
