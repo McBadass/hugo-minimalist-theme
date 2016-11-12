@@ -148,7 +148,8 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
@@ -570,7 +571,10 @@ hr {
 
 .post img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
 
 .post-info {
   color: #a2a2a2;
@@ -627,8 +631,8 @@ hr {
   margin-bottom: 60px; }
 
 .btn {
-  border: solid 1px #ececec;
-  background-color: #FFF;
+  border: solid 1px #999;
+  background-color: #e6e6e6;
   width: 100px;
   height: 35px;
   display: block;
@@ -642,7 +646,7 @@ hr {
   font-size: 13px;
   color: #000; }
   .btn:hover {
-    background-color: #2a373d;
+    background-color: #999;
     border-color: #2a373d;
     color: #FFF; }
 
